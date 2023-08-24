@@ -1,5 +1,3 @@
-
-
 L'obiettivo dell'esercizio è creare un server di storage con API CRUD e un sistema di login utilizzando Node.js e il framework Fastify.
 
 Il server deve essere in grado di salvare i dati in un file JSON sul file system e autenticare gli utenti attraverso un token JWT. 
@@ -51,9 +49,3 @@ https://nodejs.dev/en/learn/introduction-to-nodejs/
 https://www.fastify.io/docs/latest/Guides/Getting-Started/
 
 https://blog.stoplight.io/crud-api-design
-
-
-
-Dopo aver completato l'esercizio, inviaci il codice sorgente su GitHub o come archivio zip.
-
-In bocca al lupo e non esitare a contattarci se hai domande!
