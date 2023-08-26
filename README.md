@@ -2,16 +2,7 @@
 Progetto Storage server di Sergi Cosimo
 # Requisiti:
 L'obiettivo dell'esercizio è creare un server di storage con API CRUD e un sistema di login utilizzando Node.js e il framework Fastify.
-Il server deve essere in grado di salvare i dati in un file JSON sul file system e autenticare gli utenti attraverso un token JWT. 
-In particolare, i passi sono :
-- Creare un progetto Node.js
-- Installare Fastify e jsonwebtoken con "npm install fastify jsonwebtoken"
-- Definire gli endpoint API utilizzando i metodi appropriati di Fastify
-- Utilizzare il modulo "fs" di Node.js per scrivere e leggere dati dal file JSON
-- Implementare la logica di autenticazione e generazione del token JWT nel endpoint di login
-- Implementare la logica di validazione del token JWT nei endpoint di CRUD
-- Implementare la logica di validazione per i dati
-- Testare il server con un client HTTP come Postman o curl.
+Il server deve essere in grado di salvare i dati in un file JSON sul file system e autenticare gli utenti attraverso un token JWT. <br>
   
 Il server deve avere i seguenti endpoint principali:<br>
  POST /login - autentica l'utente e restituisce un token JWT<br>
