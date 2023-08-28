@@ -15,7 +15,9 @@ Il server deve avere i seguenti endpoint principali:<br>
 # UTILIZZO
 Per interfacciarsi al server consiglierei di utilizzare POSTMAN ma eventualmente si può utilizzare il comando curl
 #### CURL WINDOWS:
+```
 curl -i -X POST -d "{\"username\": \"admin\", \"password\": \"admin\"}" http://localhost:3000/login -H "Content-Type: application/json"
+```
 ## POSTMAN:
 Per il login: <br>
 Creare una finestra di POST con l'indirizzo <indirizzo>/login <br>
