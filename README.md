@@ -49,7 +49,8 @@ BODY => RAW => JSON <br>
 //L'id deve combaciare con <indirizzo>/data/:id vedrò di migliorare la cosa
 ```
 Per eliminare un dato dal file, finestra DELETE <indirizzo>/data/:id <br>
-#AGGIORNAMENTI 23/09/2023:<br>
+
+## AGGIORNAMENTI 23/09/2023:
 -Diviso il codice in moduli<br>
 -Corretto alcuni errori sulla GET e POST<br>
 -Cambiato il formato del file e la sua gestione<br>
