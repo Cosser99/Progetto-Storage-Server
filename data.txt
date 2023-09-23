@@ -1,5 +1,0 @@
-{"id":1,"data":"Comodino"}
-{"id":3,"data":"Lampada"}
-{"id":4,"data":"Tavolo"}
-{"id":5,"data":"Comodino"}
-{"id":21,"data":"Bicchiere"}
