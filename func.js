@@ -8,7 +8,7 @@ function log(color,string) //Serve per colorare in console.log (cosi almeno si c
 	function find_data(fs,id,func)		//Funzione per trovare l'id dell'informazione ed esegurie la funzione func
 	{
 		try{
-			if(!fs.existsSync('users.json')){fs.writeFileSync('data.json','{"data":[]}','utf8');}
+			if(!fs.existsSync('data.json')){fs.writeFileSync('data.json','{"data":[]}','utf8');}
 			let data=fs.readFileSync("data.json",'utf8');
 			data=JSON.parse(data);
 			let x= data.data.find((element)=>element.id==id);
